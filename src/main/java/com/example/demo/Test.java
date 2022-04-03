@@ -9,6 +9,10 @@ package com.example.demo;
  */
 public class Test {
     public static void main(String[] args) {
-        System.out.println("你好");
+        StringBuilder stringBuilder = new StringBuilder() ;
+        for (int i = 0; i < 10; i++) {
+            stringBuilder.append("hello") ;
+        }
+        System.out.println(stringBuilder);
     }
 }
